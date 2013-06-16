@@ -1,0 +1,12 @@
+* Data types
+* Functions
+* ghci basics
+* Currying and partial application??? (value constructors example)
+* Modules
+* Pattern matching
+* Case-expressions
+* Let-expressions
+* Where-clause
+* Type classes (ad-hoc polymorphism)
+* Laziness via infinite input string to parser???
+* Parsing with monadic parsing???
