@@ -1,12 +1,12 @@
-* Data types
-* Functions
-* ghci basics
-* Currying and partial application??? (value constructors example)
-* Modules
-* Pattern matching
-* Case-expressions
-* Let-expressions
-* Where-clause
-* Type classes (ad-hoc polymorphism)
-* Laziness via infinite input string to parser???
-* Parsing with monadic parsing???
+0. Introduction (about me, what we will do, Haskell).
+1. Create Expr.hs and load it to ghci (two ways).
+2. Start with data types (show :i Bool and create language expressions).
+3. Interpreter.hs.
+4. Type synonyms + touch modules and std lib (Map) + hoogle.
+5. Import Expr, functions (eval), type signatures, undefined.
+6. Small functions examples with let in ghci + value constructors, currying + partial app.
+7. Pattern matching, let, where, case, Maybe (:i).
+8. Modules (import Parser), scl function.
+9. Show and type classes (deriving and instance), polymorphism (parametric, ad-hoc).
+10. Laziness with infinite string example.
+...
