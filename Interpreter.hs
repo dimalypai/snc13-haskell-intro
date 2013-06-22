@@ -23,4 +23,5 @@ lookupVar var env =
   case Map.lookup var env of
     Just n  -> n
     Nothing -> error "Name is unbound"
+  --fromMaybe (error "Name is unbound") (Map.lookup var env)
 

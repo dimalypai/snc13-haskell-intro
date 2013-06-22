@@ -9,6 +9,6 @@ main = do
   input <- getLine
   case input of
     ":q" -> exitSuccess
-    _    -> do putStrLn $ show $ scl input
+    _    -> do print $ scl input
                main
 
