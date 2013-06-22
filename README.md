@@ -35,6 +35,8 @@ Now you can run scl and enter expressions for evaluation like:
 
 `3`
 
+To exit execute `:q`.
+
 You can play with some functions in ghci as well.
 
 To evaluate SCL expression with empty environment for variable bindings
