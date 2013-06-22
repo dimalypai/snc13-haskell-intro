@@ -1,12 +1,41 @@
-0. Introduction (about me, what we will do, Haskell).
-1. Create Expr.hs and load it to ghci (two ways).
-2. Start with data types (show :i Bool and create language expressions).
-3. Interpreter.hs.
-4. Type synonyms + touch modules and std lib (Map) + hoogle.
-5. Import Expr, functions (eval), type signatures, undefined.
-6. Small functions examples with let in ghci + value constructors, currying + partial app.
-7. Pattern matching, let, where, case, Maybe (:i).
-8. Modules (import Parser), scl function.
-9. Show and type classes (deriving and instance), polymorphism (parametric, ad-hoc).
-10. Laziness with infinite string example.
-...
+0. Introduction
+  a. About me
+  b. What we will do
+  c. Haskell
+    * Purely functional (referential transparency)
+    * Strong static typing
+    * Non-strict semantics (lazy evaluation)
+1. Create Expr.hs and load it to ghci
+  a. ghci Expr.hs
+  b. :l Expr.hs
+2. Start with data types
+  a. :i Bool
+  b. Create language expressions
+3. Create Interpreter.hs
+  a. Touch modules and std lib (Data.Map)
+  b. Type synonyms
+    * :i String
+    * Env
+  c. Hoogle (Data.Map)
+4. Interpreter skeleton
+  a. import Expr (more on modules)
+  b. Functions (eval)
+  c. Type signatures
+  d. Undefined
+5. Small functions examples in ghci
+  a. let definition
+  b. Value constructors from Expr.hs
+  c. Currying and partial application
+6. Eval function
+  a. Pattern matching
+    lookupVar = undefined
+  b. let
+  c. where
+  d. case
+  e. Maybe (:i)
+7. import Parser, scl function
+8. Show and type classes
+  a. Deriving
+  b. Instance
+  c. Word about polymorphism (parametric, ad-hoc)
+9. Laziness with infinite string example (evaluate infinite string constructed with repeat)
