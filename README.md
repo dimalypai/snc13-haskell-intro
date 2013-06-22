@@ -19,6 +19,24 @@ following forms:
 Evaluation
 ----------
 
+To get a REPL environment for SCL execute the following:
+
+`ghc Main.hs -o scl`
+
+Now you can run scl and enter expressions for evaluation like:
+
+`./scl`
+
+`scl> 1+2`
+
+`3`
+
+`scl> (\x -> x) (1+2)`
+
+`3`
+
+You can play with some functions in ghci as well.
+
 To evaluate SCL expression with empty environment for variable bindings
 evaluate the following in ghci (load Interpreter.hs):
 

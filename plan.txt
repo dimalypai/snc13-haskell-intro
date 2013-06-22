@@ -38,4 +38,5 @@
   a. Deriving
   b. Instance
   c. Word about polymorphism (parametric, ad-hoc)
-9. Laziness with infinite string example (evaluate infinite string constructed with repeat)
+9. scl function, Main, binary
+10. Laziness with infinite string example (evaluate infinite string constructed with repeat)
