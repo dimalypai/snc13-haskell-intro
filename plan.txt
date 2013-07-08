@@ -18,7 +18,7 @@
     * Env
   c. Hoogle (Data.Map)
 4. Interpreter skeleton
-  a. import Expr (more on modules)
+  a. import Expr (add module Expr, more on modules)
   b. Functions (eval)
   c. Type signatures
   d. Undefined
@@ -33,10 +33,11 @@
   c. where
   d. case
   e. Maybe (:i)
-7. import Parser, scl function
-8. Show and type classes
+  f. Show hlint (lookupVar)
+7. import Parser
+8. Show and type classes (parse expressions)
   a. Deriving
-  b. Instance
+  b. Instance (show comments in Haskell by commenting out deriving)
   c. Word about polymorphism (parametric, ad-hoc)
 9. scl function, Main, binary
 10. Laziness with infinite string example (evaluate infinite string constructed with repeat)
