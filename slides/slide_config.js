@@ -4,7 +4,7 @@ var SLIDE_CONFIG = {
     title: 'Live Intro to Haskell',
     eventInfo: {
       title: 'Script\'n\'Code',
-      date: '18.07.2013'
+      date: '22.07.2013'
     },
     useBuilds: true, // Default: true. False will turn off slide animation builds.
     usePrettify: true, // Default: true
