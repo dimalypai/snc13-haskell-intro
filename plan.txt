@@ -16,7 +16,8 @@
   b. Type synonyms
     * :i String
     * Env
-  c. Hoogle (Data.Map)
+  c. Newtype (wrapping for type safety)
+  d. Hoogle (Data.Map)
 4. Interpreter skeleton
   a. import Expr (add module Expr, more on modules)
   b. Functions (eval)
